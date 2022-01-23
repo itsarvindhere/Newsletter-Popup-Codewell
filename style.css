@@ -183,9 +183,10 @@ button {
     font-weight: 600;
 }
 
-@media screen and (max-width: 700px) and (orientation: landscape) {
+@media screen and (max-height: 770px) and (orientation: landscape) {
     body {
-        height: 200vh;
+      height: calc(100vw + 10vw);
+
     }
 }
 
