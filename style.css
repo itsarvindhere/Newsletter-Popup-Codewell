@@ -190,14 +190,16 @@ button {
         font-size: 0.6rem;
     }
 
-    body {
-        background: none;
-        display: block;
+    .container {
+       margin-inline: 2em;
+       border-radius: 10px;
     }
 
+    h2{
+        padding: 4vh 4vh;
+    }
 
-    .container {
-        max-width: unset;
-        border-radius: 0;
+    .bottom-half {
+        padding: 1.2em;
     }
 }
