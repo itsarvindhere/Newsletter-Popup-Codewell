@@ -96,7 +96,6 @@ body {
     background-size: cover;
     display: grid;
     place-items: center;
-    height: 100vh;
 }
 
 .container {
@@ -182,6 +181,12 @@ button {
 .details .name {
     color: #000;
     font-weight: 600;
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+    body {
+        height: 200vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
